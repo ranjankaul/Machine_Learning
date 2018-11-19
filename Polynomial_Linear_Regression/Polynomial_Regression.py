@@ -42,3 +42,7 @@ plt.title("Polynomial Regression Salary Estimate")
 plt.xlabel("position")
 plt.ylabel("salary")
 plt.show()
+
+
+print(Lin_LR.predict(6.5))
+print(Lin_LR2.predict(Poly_LR.fit_transform(6.5)))
